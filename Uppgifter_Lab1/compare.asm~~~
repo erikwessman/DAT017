@@ -1,0 +1,19 @@
+start:	LDR	R0, =0x555555555
+	LDR	R1, =0x40020C00
+	STR	R0, [R1]
+	LDR	R5, =0x40020C14
+	LDR	R6, =0x40021010
+
+main:	LDRB	R3, [R6]
+	SXTB	R3, R3
+	LDRB	R4,[R6, #1]
+	SXTB	R4, R4
+	CMP	R3, R4
+	BGT	main_1
+	MOV	R0, #0
+	B	main_2
+main_1:	MOV	R0,#0xFF
+main_2:	STRB	R0, [R5]
+	B	main
+
+	
