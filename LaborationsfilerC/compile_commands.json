@@ -1,0 +1,5 @@
+[{
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\LaborationsfilerC\\basic_io\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\LaborationsfilerC\\basic_io",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\LaborationsfilerC\\basic_io\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\LaborationsfilerC\\basic_io\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+ }]
