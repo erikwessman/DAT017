@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Laboration2" Database="" Version="10.0.0">
+  <Project Name="Kap4" Path="Kap4/Kap4.project" Active="No"/>
+  <Project Name="keypad2" Path="keypad2/keypad2.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Kap4" ConfigName="Debug"/>
+      <Project Name="keypad2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Kap4" ConfigName="Release"/>
+      <Project Name="keypad2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
