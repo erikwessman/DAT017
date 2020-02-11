@@ -28,7 +28,7 @@ void app_init(void) {
 	*GPIO_OTYPER &= 0xFFFF00FF;
 	*GPIO_PUPDR &= 0x0000FFFF;
 	
-	*GPIO_MODER |= 0x55000000;
+	*GPIO_MODER |= 0x55005555;
 	*GPIO_PUPDR |= 0xAA000000;
 }
 

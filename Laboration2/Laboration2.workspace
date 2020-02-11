@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Laboration2" Database="" Version="10.0.0">
-  <Project Name="Kap4" Path="Kap4/Kap4.project" Active="No"/>
-  <Project Name="keypad" Path="keypad/keypad.project" Active="No"/>
-  <Project Name="Kap5" Path="Kap5/Kap5.project" Active="Yes"/>
+  <Project Name="GPIO" Path="Kap4/Kap4.project" Active="No"/>
+  <Project Name="keypad" Path="keypad/keypad.project" Active="Yes"/>
+  <Project Name="delay" Path="Kap5/Kap5.project" Active="No"/>
+  <Project Name="asciidisplay" Path="asciidisplay/asciidisplay.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="Kap4" ConfigName="Debug"/>
+      <Project Name="GPIO" ConfigName="Debug"/>
       <Project Name="keypad" ConfigName="Debug"/>
-      <Project Name="Kap5" ConfigName="Debug"/>
+      <Project Name="delay" ConfigName="Debug"/>
+      <Project Name="asciidisplay" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="Kap4" ConfigName="Release"/>
+      <Project Name="GPIO" ConfigName="Release"/>
       <Project Name="keypad" ConfigName="Release"/>
-      <Project Name="Kap5" ConfigName="Release"/>
+      <Project Name="delay" ConfigName="Release"/>
+      <Project Name="asciidisplay" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

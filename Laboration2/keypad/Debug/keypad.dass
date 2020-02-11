@@ -29,49 +29,49 @@ __asm__ volatile(".L1: B .L1\n");				/* never return */
 void app_init(void) {
 20000010:	b580      	push	{r7, lr}
 20000012:	af00      	add	r7, sp, #0
-	*GPIO_MODER &= 0x00000000;
+	*GPIO_MODER &= 0x0000FFFF;
 20000014:	4b11      	ldr	r3, [pc, #68]	; (2000005c <app_init+0x4c>)
-20000016:	681b      	ldr	r3, [r3, #0]
+20000016:	681a      	ldr	r2, [r3, #0]
 20000018:	4b10      	ldr	r3, [pc, #64]	; (2000005c <app_init+0x4c>)
-2000001a:	2200      	movs	r2, #0
-2000001c:	601a      	str	r2, [r3, #0]
+2000001a:	0412      	lsls	r2, r2, #16
+2000001c:	0c12      	lsrs	r2, r2, #16
+2000001e:	601a      	str	r2, [r3, #0]
 	*GPIO_OTYPER &= 0xFFFF00FF;
-2000001e:	4b10      	ldr	r3, [pc, #64]	; (20000060 <app_init+0x50>)
-20000020:	881b      	ldrh	r3, [r3, #0]
-20000022:	b29b      	uxth	r3, r3
-20000024:	4a0e      	ldr	r2, [pc, #56]	; (20000060 <app_init+0x50>)
-20000026:	21ff      	movs	r1, #255	; 0xff
-20000028:	400b      	ands	r3, r1
-2000002a:	b29b      	uxth	r3, r3
-2000002c:	8013      	strh	r3, [r2, #0]
+20000020:	4b0f      	ldr	r3, [pc, #60]	; (20000060 <app_init+0x50>)
+20000022:	881b      	ldrh	r3, [r3, #0]
+20000024:	b29b      	uxth	r3, r3
+20000026:	4a0e      	ldr	r2, [pc, #56]	; (20000060 <app_init+0x50>)
+20000028:	21ff      	movs	r1, #255	; 0xff
+2000002a:	400b      	ands	r3, r1
+2000002c:	b29b      	uxth	r3, r3
+2000002e:	8013      	strh	r3, [r2, #0]
 	*GPIO_PUPDR &= 0x0000FFFF;
-2000002e:	4b0d      	ldr	r3, [pc, #52]	; (20000064 <app_init+0x54>)
-20000030:	681a      	ldr	r2, [r3, #0]
-20000032:	4b0c      	ldr	r3, [pc, #48]	; (20000064 <app_init+0x54>)
-20000034:	0412      	lsls	r2, r2, #16
-20000036:	0c12      	lsrs	r2, r2, #16
-20000038:	601a      	str	r2, [r3, #0]
+20000030:	4b0c      	ldr	r3, [pc, #48]	; (20000064 <app_init+0x54>)
+20000032:	681a      	ldr	r2, [r3, #0]
+20000034:	4b0b      	ldr	r3, [pc, #44]	; (20000064 <app_init+0x54>)
+20000036:	0412      	lsls	r2, r2, #16
+20000038:	0c12      	lsrs	r2, r2, #16
+2000003a:	601a      	str	r2, [r3, #0]
 	
 	*GPIO_MODER |= 0x55005555;
-2000003a:	4b08      	ldr	r3, [pc, #32]	; (2000005c <app_init+0x4c>)
-2000003c:	681a      	ldr	r2, [r3, #0]
-2000003e:	4b07      	ldr	r3, [pc, #28]	; (2000005c <app_init+0x4c>)
-20000040:	4909      	ldr	r1, [pc, #36]	; (20000068 <app_init+0x58>)
-20000042:	430a      	orrs	r2, r1
-20000044:	601a      	str	r2, [r3, #0]
+2000003c:	4b07      	ldr	r3, [pc, #28]	; (2000005c <app_init+0x4c>)
+2000003e:	681a      	ldr	r2, [r3, #0]
+20000040:	4b06      	ldr	r3, [pc, #24]	; (2000005c <app_init+0x4c>)
+20000042:	4909      	ldr	r1, [pc, #36]	; (20000068 <app_init+0x58>)
+20000044:	430a      	orrs	r2, r1
+20000046:	601a      	str	r2, [r3, #0]
 	*GPIO_PUPDR |= 0xAA000000;
-20000046:	4b07      	ldr	r3, [pc, #28]	; (20000064 <app_init+0x54>)
-20000048:	681a      	ldr	r2, [r3, #0]
-2000004a:	4b06      	ldr	r3, [pc, #24]	; (20000064 <app_init+0x54>)
-2000004c:	21aa      	movs	r1, #170	; 0xaa
-2000004e:	0609      	lsls	r1, r1, #24
-20000050:	430a      	orrs	r2, r1
-20000052:	601a      	str	r2, [r3, #0]
+20000048:	4b06      	ldr	r3, [pc, #24]	; (20000064 <app_init+0x54>)
+2000004a:	681a      	ldr	r2, [r3, #0]
+2000004c:	4b05      	ldr	r3, [pc, #20]	; (20000064 <app_init+0x54>)
+2000004e:	21aa      	movs	r1, #170	; 0xaa
+20000050:	0609      	lsls	r1, r1, #24
+20000052:	430a      	orrs	r2, r1
+20000054:	601a      	str	r2, [r3, #0]
 }
-20000054:	46c0      	nop			; (mov r8, r8)
-20000056:	46bd      	mov	sp, r7
-20000058:	bd80      	pop	{r7, pc}
-2000005a:	46c0      	nop			; (mov r8, r8)
+20000056:	46c0      	nop			; (mov r8, r8)
+20000058:	46bd      	mov	sp, r7
+2000005a:	bd80      	pop	{r7, pc}
 2000005c:	40020c00 	andmi	r0, r2, r0, lsl #24
 20000060:	40020c04 	andmi	r0, r2, r4, lsl #24
 20000064:	40020c0c 	andmi	r0, r2, ip, lsl #24
@@ -541,9 +541,9 @@ Disassembly of section .debug_line:
   80:	20000010 	andcs	r0, r0, r0, lsl r0
   84:	05011903 	streq	r1, [r1, #-2307]	; 0xfffff6fd
   88:	0f052f0e 	svceq	0x00052f0e
-  8c:	830e0559 	movwhi	r0, #58713	; 0xe559
+  8c:	830e0567 	movwhi	r0, #58727	; 0xe567
   90:	01056768 	tsteq	r5, r8, ror #14
-  94:	bc240575 	cfstr32lt	mvfx0, [r4], #-468	; 0xfffffe2c
+  94:	ae240575 	mcrge	5, 1, r0, cr4, cr5, {3}
   98:	05ca0b05 	strbeq	r0, [sl, #2821]	; 0xb05
   9c:	0305201a 	movweq	r2, #20506	; 0x501a
   a0:	210b052e 	tstcs	fp, lr, lsr #10

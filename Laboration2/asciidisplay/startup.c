@@ -3,14 +3,15 @@
  *
  */
  
- #define STK_D 0xE000E010
- #define STK_CTRL (unsigned int *) STK_D
- #define STK_LOAD (unsigned int *) (STK_D + 4)
- #define STK_VAL (unsigned int *) (STK_D + 8)
+#define STK_BASE 0xE000E010
+#define STK_CTRL (unsigned int *) STK_BASE
+#define STK_LOAD (unsigned int *) (STK_BASE + 4)
+#define STK_VAL (unsigned int *) (STK_BASE + 8)
  
-#define GPIO_D 0x40020C00
+#define GPIO_E 0x40021000
 #define GPIO_MODER ((volatile unsigned int *) GPIO_D)
 #define GPIO_ODR_LOW ((volatile unsigned char *) (GPIO_D + 0x14))
+#define GPIO_ODR_HIGH ((volatile unsigned char *) (GPIO_D + 0x15))
 
 __attribute__((naked)) __attribute__((section (".start_section")) )
 void startup ( void )
@@ -19,10 +20,6 @@ __asm__ volatile(" LDR R0,=0x2001C000\n");		/* set stack */
 __asm__ volatile(" MOV SP,R0\n");
 __asm__ volatile(" BL main\n");					/* call main */
 __asm__ volatile(".L1: B .L1\n");				/* never return */
-}
-
-void app_init(void) {
-	*GPIO_MODER = 0x55555555;
 }
 
 #define SIMULATOR
@@ -64,12 +61,5 @@ void delay_milli(unsigned int ms) {
 
 void main(void)
 {
-	app_init();
-	while(1) {
-		*GPIO_ODR_LOW = 0;
-		delay_milli(1000);
-		*GPIO_ODR_LOW = 0xFF;
-		delay_milli(1000);
-	}
 }
 
