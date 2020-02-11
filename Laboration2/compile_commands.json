@@ -1,7 +1,7 @@
 [{
-  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad2\\startup.c",
-  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad2",
-  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad2\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad2\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\keypad\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }, {
   "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\Kap4\\startup.c",
   "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\Kap4",

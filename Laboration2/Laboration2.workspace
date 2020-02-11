@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Laboration2" Database="" Version="10.0.0">
   <Project Name="Kap4" Path="Kap4/Kap4.project" Active="No"/>
-  <Project Name="keypad2" Path="keypad2/keypad2.project" Active="Yes"/>
+  <Project Name="keypad" Path="keypad/keypad.project" Active="No"/>
+  <Project Name="Kap5" Path="Kap5/Kap5.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Kap4" ConfigName="Debug"/>
-      <Project Name="keypad2" ConfigName="Debug"/>
+      <Project Name="keypad" ConfigName="Debug"/>
+      <Project Name="Kap5" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Kap4" ConfigName="Release"/>
-      <Project Name="keypad2" ConfigName="Release"/>
+      <Project Name="keypad" ConfigName="Release"/>
+      <Project Name="Kap5" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
