@@ -1,4 +1,8 @@
 [{
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\graphicdisplay\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\graphicdisplay",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\graphicdisplay\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\graphicdisplay\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+ }, {
   "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\asciidisplay\\startup.c",
   "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\asciidisplay",
   "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\asciidisplay\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laboration2\\asciidisplay\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
