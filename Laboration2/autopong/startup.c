@@ -85,13 +85,17 @@ void set_object_speed(POBJECT o, int speedx, int speedy) {
 
 void draw_object(POBJECT o) {
 	for(int i = 0; i < MAX_POINTS; i++) {
-		pixel(o->posx, o->posy, 1);
+		uint8_t x = (o->posx) + o->geo->px[i].x;
+		uint8_t y = (o->posy) + o->geo->px[i].y;
+		pixel(x, y, 1);
 	}
 }
 
-void draw_object(POBJECT o) {
+void clear_object(POBJECT o) {
 	for(int i = 0; i < MAX_POINTS; i++) {
-		pixel(o->posx, o->posy, 0);
+		uint8_t x = (o->posx) + o->geo->px[i].x;
+		uint8_t y = (o->posy) + o->geo->px[i].y;
+		pixel(x, y, 0);
 	}
 }
 
@@ -102,15 +106,15 @@ void move_object(POBJECT obj) {
 	
 	if (obj->posx < 1) {
 		obj->dirx = obj->dirx * (-1);
-	} else if (obj->posx < 128) {
+	} else if (obj->posx > 128) {
 		obj->dirx = obj->dirx * (-1);
 	} else if (obj->posy < 1) {
 		obj->diry = obj->diry * (-1);
-	} else if (obj-posy > 64) {
+	} else if (obj->posy > 64) {
 		obj->diry = obj->diry * (-1);
 	}
 	
-	draw_object(object);
+	draw_object(obj);
 }
 
 void delay_250_ns(void) {
@@ -343,21 +347,29 @@ void app_init() {
 	*GPIO_MODER |= 0x55555555;
 }
 
+static OBJECT ball = {
+		&ball_geometry,
+		0,0,
+		1,1,
+		draw_object,
+		clear_object,
+		move_object,
+		set_object_speed
+	};
+
 void main(void)
 {
-	unsigned int i;
+	POBJECT p = &ball;
 	app_init();
 	graphic_initialize();
 	#ifndef SIMULATOR
 		graphic_clear_screen();
 	#endif
 	
-	for (i = 0; i < 128; i++) {
-		pixel(i, 10, 1);
+	p->set_speed(p, 10, 10);
+	while(1) {
+		p->move(p);
+		delay_milli(40);
 	}
-	for (i = 0; i < 64; i++) {
-		pixel(10, i, 1);
-	}
-	delay_milli(500);
 }
 
