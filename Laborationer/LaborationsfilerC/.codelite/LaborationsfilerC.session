@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="C:\Users\eriwes\Downloads\DAT017-master\Laboration1\LaborationsfilerC\LaborationsfilerC.workspace">
+  <int Value="2" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\eriwes\Downloads\DAT017-master\Laboration1\LaborationsfilerC\LaborationsfilerC.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\eriwes\Downloads\DAT017-master\Laboration1\LaborationsfilerC\lab3_1\startup.c" Name="FileName"/>
+      <int Value="289" Name="FirstVisibleLine"/>
+      <int Value="362" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\eriwes\Downloads\DAT017-master\Laboration1\LaborationsfilerC\lab3_2\startup.c" Name="FileName"/>
+      <int Value="322" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\eriwes\Downloads\DAT017-master\Laboration1\LaborationsfilerC\lab3_3\startup.c" Name="FileName"/>
+      <int Value="359" Name="FirstVisibleLine"/>
+      <int Value="390" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
