@@ -1,0 +1,45 @@
+
+unaligned.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+20000000 <main>:
+main:
+	LDR	R0, =usage_fault_handler
+20000000:	4803      	ldr	r0, [pc, #12]	; (20000010 <usage_fault_handler+0x4>)
+	LDR	R7, =0x2001C018
+20000002:	4f04      	ldr	r7, [pc, #16]	; (20000014 <usage_fault_handler+0x8>)
+	STR	R0, [R7]
+20000004:	6038      	str	r0, [r7, #0]
+
+20000006 <main_1>:
+main_1:
+	LDR	R0, =0x20001001
+20000006:	4804      	ldr	r0, [pc, #16]	; (20000018 <usage_fault_handler+0xc>)
+	
+	LDR 	R0, [R0]
+20000008:	6800      	ldr	r0, [r0, #0]
+	B	main_1
+2000000a:	e7fc      	b.n	20000006 <main_1>
+
+2000000c <usage_fault_handler>:
+
+	.thumb_func
+
+usage_fault_handler:
+	B	usage_fault_handler
+2000000c:	e7fe      	b.n	2000000c <usage_fault_handler>
+2000000e:	0000      	.short	0x0000
+20000010:	2000000d 	.word	0x2000000d
+20000014:	2001c018 	.word	0x2001c018
+20000018:	20001001 	.word	0x20001001
+
+2000001c <__bss_end__>:
+	...
+
+20001000 <heap_low>:
+	...
+
+20001800 <heap_top>:
+	...

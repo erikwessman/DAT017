@@ -1,0 +1,13 @@
+[{
+  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\getsetpsr\\startup.c",
+  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\getsetpsr",
+  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\getsetpsr\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\getsetpsr\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+ }, {
+  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\unaligned\\startup.c",
+  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\unaligned",
+  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\unaligned\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\unaligned\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+ }, {
+  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\systick_irq\\startup.c",
+  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\systick_irq",
+  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\systick_irq\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laboration3\\systick_irq\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+ }]

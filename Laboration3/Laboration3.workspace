@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Laboration3" Database="" Version="10.0.0">
+  <Project Name="getsetpsr" Path="getsetpsr/getsetpsr.project" Active="No"/>
+  <Project Name="systick_irq" Path="systick_irq/systick_irq.project" Active="No"/>
+  <Project Name="unaligned" Path="unaligned/unaligned.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="getsetpsr" ConfigName="Debug"/>
+      <Project Name="systick_irq" ConfigName="Debug"/>
+      <Project Name="unaligned" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="getsetpsr" ConfigName="Release"/>
+      <Project Name="systick_irq" ConfigName="Release"/>
+      <Project Name="unaligned" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
