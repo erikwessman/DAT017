@@ -1,29 +1,33 @@
 [{
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_5\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_5",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_5\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_5\\startup.c.o  -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab22",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_3\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab22",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab22\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c.o  -DUSBDM -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_2\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\basic_io\\startup.c.o  -DUSBDM -I. -I.  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab3_1\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }, {
-  "file": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c",
-  "directory": "C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3",
-  "command": "clang  -c C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c -o C:\\Users\\carls\\Documents\\GitHub\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab_2_2\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
+ }, {
+  "file": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c",
+  "directory": "C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3",
+  "command": "clang  -c C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c -o C:\\Users\\carls\\OneDrive\\Chalmers\\DAT017\\Laborationer\\LaborationsfilerC\\lab2_3\\startup.c.o  -I. -I.  -Wa,-adhln=test.s  -g  -O0  -w  -mthumb -march=armv6-m  -mfloat-abi=soft  -std=c99  -mthumb  -march=armv6-m"
  }]

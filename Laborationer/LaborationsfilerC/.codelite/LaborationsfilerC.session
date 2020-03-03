@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\carls\Documents\GitHub\DAT017\Laborationer\LaborationsfilerC\LaborationsfilerC.workspace">
+<Session Name="C:\Users\carls\OneDrive\Chalmers\DAT017\Laborationer\LaborationsfilerC\LaborationsfilerC.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\carls\Documents\GitHub\DAT017\Laborationer\LaborationsfilerC\LaborationsfilerC.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <wxString Value="C:\Users\carls\OneDrive\Chalmers\DAT017\Laborationer\LaborationsfilerC\LaborationsfilerC.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\carls\OneDrive\Chalmers\DAT017\Laborationer\LaborationsfilerC\lab_5\startup.c" Name="FileName"/>
+      <int Value="478" Name="FirstVisibleLine"/>
+      <int Value="489" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
